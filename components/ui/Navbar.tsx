@@ -36,13 +36,13 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link 
           href="/" 
-          className="text-2xl font-black tracking-tighter text-zinc-900 dark:text-white flex items-center gap-2"
+          className="text-xl sm:text-2xl font-black tracking-tighter text-zinc-900 dark:text-white flex items-center gap-2"
           onClick={() => setMobileMenuOpen(false)}
         >
-          <div className="w-8 h-8 bg-zinc-900 dark:bg-white rounded-lg flex items-center justify-center">
-            <div className="w-4 h-4 bg-white dark:bg-zinc-900 rounded-sm rotate-45" />
+          <div className="w-6 h-6 sm:w-8 sm:h-8 bg-zinc-900 dark:bg-white rounded-lg flex items-center justify-center">
+            <div className="w-3 h-3 sm:w-4 sm:h-4 bg-white dark:bg-zinc-900 rounded-sm rotate-45" />
           </div>
-          CLEANING BRAND
+          <span className="truncate">CLEANING BRAND</span>
         </Link>
 
         {/* Desktop Menu */}

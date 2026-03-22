@@ -16,13 +16,13 @@ export default function Home() {
         {/* Why Choose Us Section */}
         <section id="about" className="py-32 bg-white dark:bg-zinc-950">
           <div className="max-w-7xl mx-auto px-6">
-            <div className="flex flex-col md:flex-row items-center gap-24">
-              <div className="flex-1">
-                <h2 className="text-4xl md:text-6xl font-black mb-10 text-zinc-900 dark:text-white leading-tight">
+            <div className="flex flex-col md:flex-row items-center gap-16 md:gap-24">
+              <div className="flex-1 w-full text-center md:text-left">
+                <h2 className="text-3xl sm:text-4xl md:text-6xl font-black mb-10 text-zinc-900 dark:text-white leading-tight">
                   UNCOMPROMISING <br />
                   QUALITY.
                 </h2>
-                <div className="space-y-10">
+                <div className="space-y-8 md:space-y-10 text-left">
                   {[
                     { title: "Meticulous Standards", desc: "Every corner, every surface, handled with extreme precision." },
                     { title: "Vetted Professionals", desc: "Our staff undergo rigorous background checks and elite training." },
@@ -41,7 +41,7 @@ export default function Home() {
                   ))}
                 </div>
               </div>
-              <div className="flex-1 w-full aspect-[4/5] bg-zinc-100 dark:bg-zinc-900 rounded-[3rem] overflow-hidden relative group">
+              <div className="flex-1 w-full aspect-[4/5] sm:aspect-square md:aspect-[4/5] bg-zinc-100 dark:bg-zinc-900 rounded-[2rem] md:rounded-[3rem] overflow-hidden relative group">
                 <Image
                     src="/clean.jpg"
                     alt="Cleaning service"
@@ -69,13 +69,13 @@ export default function Home() {
 
         {/* CTA Section */}
         <section className="py-32 bg-zinc-900 dark:bg-white overflow-hidden relative">
-          <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[40rem] font-black text-white dark:text-zinc-900 tracking-tighter select-none">
+          <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none flex items-center justify-center">
+            <div className="text-[12rem] sm:text-[20rem] md:text-[30rem] lg:text-[40rem] font-black text-white dark:text-zinc-900 tracking-tighter select-none">
               CLEAN
             </div>
           </div>
           <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
-            <h2 className="text-5xl md:text-8xl font-black text-white dark:text-zinc-900 mb-12 tracking-tighter">
+            <h2 className="text-4xl sm:text-5xl md:text-8xl font-black text-white dark:text-zinc-900 mb-12 tracking-tighter">
               READY TO <br /> EXPERIENCE ELITE?
             </h2>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">

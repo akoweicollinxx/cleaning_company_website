@@ -35,7 +35,7 @@ const Services = () => {
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="text-4xl md:text-6xl font-black text-zinc-900 dark:text-white mb-6 leading-tight"
+              className="text-3xl sm:text-4xl md:text-6xl font-black text-zinc-900 dark:text-white mb-6 leading-tight"
             >
               OUR ELITE <br />
               CLEANING SERVICES

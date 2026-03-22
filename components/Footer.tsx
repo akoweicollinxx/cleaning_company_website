@@ -13,10 +13,10 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <Link 
               href="/" 
-              className="text-2xl font-black tracking-tighter text-zinc-900 dark:text-white flex items-center gap-2 mb-8"
+              className="text-xl sm:text-2xl font-black tracking-tighter text-zinc-900 dark:text-white flex items-center gap-2 mb-8"
             >
-              <div className="w-8 h-8 bg-zinc-900 dark:bg-white rounded-lg flex items-center justify-center">
-                <div className="w-4 h-4 bg-white dark:bg-zinc-900 rounded-sm rotate-45" />
+              <div className="w-6 h-6 sm:w-8 sm:h-8 bg-zinc-900 dark:bg-white rounded-lg flex items-center justify-center">
+                <div className="w-3 h-3 sm:w-4 sm:h-4 bg-white dark:bg-zinc-900 rounded-sm rotate-45" />
               </div>
               CLEANING BRAND
             </Link>

@@ -40,7 +40,7 @@ const Hero = () => {
           >
             The Standard of Clean
           </motion.span>
-          <h1 className="text-6xl md:text-8xl font-black tracking-tight text-zinc-900 dark:text-white mb-8 leading-[0.9]">
+          <h1 className="text-4xl sm:text-6xl md:text-8xl font-black tracking-tight text-zinc-900 dark:text-white mb-8 leading-[0.9]">
             EXCEPTIONAL <br />
             <span className="text-zinc-400 dark:text-zinc-600">SPACES</span> REIMAGINED.
           </h1>
